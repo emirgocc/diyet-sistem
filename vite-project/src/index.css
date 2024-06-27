@@ -1,0 +1,88 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .logout-button {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header .logout-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Home page styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.logout-button-container {
+  margin-top: auto;
+}
+
+/* BoyKiloForm styles */
+.boy-kilo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.boy-kilo-form {
+  width: 300px;
+}
+
+.boy-kilo-form-button {
+  width: 100%;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+}

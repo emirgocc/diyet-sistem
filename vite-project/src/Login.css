@@ -1,0 +1,27 @@
+/* Login.css */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Dikeyde ortalama */
+    align-items: center; /* Yatayda ortalama */
+    min-height: 100vh; /* Tam ekran yüksekliği */
+    background-color: #f9f9f9; /* İsteğe bağlı arka plan rengi */
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+  }
+  
+  .login-form-button {
+    width: 100%;
+  }
+  
